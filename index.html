@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="./assets/script.js"></script>
+    
+
 </head>
 
 <body>
@@ -28,8 +31,11 @@
                     <div
                         class="collapse navbar-collapse" id="navcol-1" style="color:rgb(50,49,49);">
                         <ul class="nav navbar-nav">
-                            <li class="nav-item" role="presentation"><a class="nav-link active" href="./contact.html" style="color:rgb(126,124,124);font-size:23px;font-family:Aldrich, sans-serif;">CONTACT INFORMATION</a></li>
-                        </ul><span class="navbar-text"> <a href="./contact.html" class="login" style="color:rgb(130,129,129);font-size:23px;font-family:Aldrich, sans-serif;">LOG IN</a></span></div>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" onClick="passWord()" href="./contact.html" style="color:rgb(126,124,124);font-size:23px;font-family:Aldrich, sans-serif;">CONTACT INFORMATION</a>
+                            </li>
+                        </ul><span class="navbar-text"> 
+                            <a href="./contact.html" class="login" onClick="passWord()" style="color:rgb(130,129,129);font-size:23px;font-family:Aldrich, sans-serif;">LOG IN</a></span></div>
         </div>
         </nav>
         <div class="container hero">
@@ -38,7 +44,7 @@
                     <h1 class="text-center bg-warning" style="margin-top:94px;color:rgb(97,97,97);">IT Deptartment VJCET</h1>
                     <p style="color:#3e3d3d;"><br>The department of Information Technology was commenced in the year 2001 . It offers undergraduate program with an annual intake of 60 students. The IT department in VJCET stands stupendous for being one among the only two NBA accredited
                         IT programs in Kerala. This branch deals with study, devise, development, execution, support and running of computer-based information systems.<br><br></p><a class="btn btn-outline-light btn-block action-button" role="button" href="./contact.html"
-                        style="color:rgb(90,90,90);">CONTACT INFORMATION</a></div>
+                        style="color:rgb(90,90,90);" onClick="passWord()">CONTACT INFORMATION</a></div>
             </div>
         </div>
     </div>
