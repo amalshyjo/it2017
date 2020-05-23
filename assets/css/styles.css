@@ -1,0 +1,10 @@
+.b-dark {
+    background-image:url(/assets/img/lightbg.jpg);
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
