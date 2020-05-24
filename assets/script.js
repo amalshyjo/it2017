@@ -1,17 +1,2 @@
 
-// PASSWORD PROTECTION SCRIPT
-
-function TheLogin() {
-
-var password = 'letmein';
-var x = document.getElementById("wrongpass");
-var y = document.getElementById("pass");
-
-if (this.document.login.pass.value == password) {
-  top.location.href="contact.html";
-}
-else if (this.document.login.pass.value !== password){
-    x.style.display = "block";
-    y.style.display = "none";
-}
-}
+eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('d e(){1 a=\'f\';1 3=0.4("g");1 5=0.4("2");6(7.0.8.2.9==a){h.i.j="k.l"}m 6(7.0.8.2.9!==a){3.b.c="n";5.b.c="o"}}',25,25,'document|var|pass|x|getElementById|y|if|this|login|value||style|display|function|TheLogin|letmein|wrongpass|top|location|href|contact|html|else|block|none'.split('|'),0,{}))
